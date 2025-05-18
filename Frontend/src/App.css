@@ -1152,7 +1152,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .project-card {
     width: 335px;
-    height: 50vh;
+    height: auto;
     max-width: 350px;
     margin: 0 auto;
     /* width: 300px; */
