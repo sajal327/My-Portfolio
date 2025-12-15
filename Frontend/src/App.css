@@ -1052,7 +1052,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* box-shadow: 3px 5px 12px rgba(166, 24, 198, 0.67); */
 }
 
-.project-image {
+/* .project-image {
   margin-top: 0px;
   padding-inline: 0px;
   width: 100%;
@@ -1061,6 +1061,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   object-position: center;
 
   box-shadow: 3px 5px 12px rgba(158, 158, 158, 0.487);
+} */
+
+.project-image {
+  width: 100%;
+  height: 185px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* MOST IMPORTANT FIX */
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+/* Subtle zoom on hover (premium look) */
+.project-card:hover .project-image img {
+  transform: scale(1.06);
 }
 
 .project-content {

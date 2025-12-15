@@ -4,7 +4,7 @@ import pgImg from "../assets/img/pgimg.jpg";
 import tour from "../assets/img/tour.png";
 import bookstore from "../assets/img/Bookstore.png";
 import bornpretty from "../assets/img/Bornpretty.png";
-import portfolio from "../assets/img/portfolio1.png";
+import portfolio from "../assets/img/portfolio.png";
 import microservice from "../assets/img/microservice.png";
 import React, { useEffect } from "react";
 import AOS from "aos";
