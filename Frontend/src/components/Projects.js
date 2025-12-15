@@ -6,6 +6,7 @@ import bookstore from "../assets/img/Bookstore.png";
 import bornpretty from "../assets/img/Bornpretty.png";
 import portfolio from "../assets/img/portfolio.png";
 import microservice from "../assets/img/microservice.png";
+import finance from "../assets/img/finance.png";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,7 +16,7 @@ const projects = [
     title: "E-commerce Website",
     subtitle: "UI/UX Design, Full Stack, SpringBoot",
     description:
-      "A full-featured e-commerce store built with React and SpringBoot.",
+      "A full-featured e-commerce store built with React, SpringBoot, and PostgreSQL.",
     imgUrl: bornpretty,
     link: "https://bornpretty.onrender.com",
   },
@@ -44,7 +45,8 @@ const projects = [
   {
     title: "Bookstore REST API",
     subtitle: "Backend, Node.js",
-    description: "REST API for a book store with user authentication.",
+    description:
+      "REST API for a book store with user authentication, CRUD operations.",
     imgUrl: bookstore,
     link: "https://github.com/sajal327/Bookstore-REST-API",
   },
@@ -55,6 +57,14 @@ const projects = [
       "Web app to track workouts and progress visually with AI recommendations.",
     imgUrl: microservice,
     link: "https://github.com/sajal327/fitness-microservice",
+  },
+  {
+    title: "Finance Tracker",
+    subtitle: "Finsight – Personal Finance Tracker",
+    description:
+      "Full-stack personal finance tracker web app built with Next.js, PostgreSQL, and Prisma ORM.",
+    imgUrl: finance,
+    link: "https://github.com/sajal327/Finsight-Personal-Finance-Tracker",
   },
 ];
 
