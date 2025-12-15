@@ -2,7 +2,10 @@ import { useInView } from "react-intersection-observer";
 import bgImage from "../assets/img/project.jpg";
 import pgImg from "../assets/img/pgimg.jpg";
 import tour from "../assets/img/tour.png";
+import bookstore from "../assets/img/Bookstore.png";
+import bornpretty from "../assets/img/Bornpretty.png";
 import portfolio from "../assets/img/portfolio1.png";
+import microservice from "../assets/img/microservice.png";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,7 +16,7 @@ const projects = [
     subtitle: "UI/UX Design, Full Stack, SpringBoot",
     description:
       "A full-featured e-commerce store built with React and SpringBoot.",
-    imgUrl: pgImg,
+    imgUrl: bornpretty,
     link: "https://bornpretty.onrender.com",
   },
   {
@@ -42,7 +45,7 @@ const projects = [
     title: "Bookstore REST API",
     subtitle: "Backend, Node.js",
     description: "REST API for a book store with user authentication.",
-    imgUrl: pgImg,
+    imgUrl: bookstore,
     link: "https://github.com/sajal327/Bookstore-REST-API",
   },
   {
@@ -50,7 +53,7 @@ const projects = [
     subtitle: "React, Microservices, AWS, Kafka",
     description:
       "Web app to track workouts and progress visually with AI recommendations.",
-    imgUrl: pgImg,
+    imgUrl: microservice,
     link: "https://github.com/sajal327/fitness-microservice",
   },
 ];
