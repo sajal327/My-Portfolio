@@ -39,7 +39,7 @@ const projects = [
     subtitle: "Machine Learning, UI (On going)",
     description: "Conversational AI chatbot built using NLP techniques.",
     imgUrl: pgImg,
-    link: "#",
+    link: "",
   },
   {
     title: "Bookstore REST API",
