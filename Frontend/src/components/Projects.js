@@ -10,11 +10,11 @@ import "aos/dist/aos.css";
 const projects = [
   {
     title: "E-commerce Website",
-    subtitle: "UI/UX Design, Full Stack",
+    subtitle: "UI/UX Design, Full Stack, SpringBoot",
     description:
-      "A full-featured e-commerce store built with React and MongoDB.",
+      "A full-featured e-commerce store built with React and SpringBoot.",
     imgUrl: pgImg,
-    link: "https://your-ecommerce-demo.com",
+    link: "https://bornpretty.onrender.com",
   },
   {
     title: "Tour & Travel App",
@@ -29,28 +29,29 @@ const projects = [
     subtitle: "Frontend Development",
     description: "A personal portfolio showcasing projects and skills.",
     imgUrl: portfolio,
-    link: "https://your-ecommerce-demo.com",
+    link: "https://my-portfolio-ak4e.onrender.com",
   },
   {
     title: "AI Chatbot",
-    subtitle: "Machine Learning, UI",
+    subtitle: "Machine Learning, UI (On going)",
     description: "Conversational AI chatbot built using NLP techniques.",
     imgUrl: pgImg,
-    link: "https://your-ecommerce-demo.com",
+    link: "#",
   },
   {
-    title: "Blog CMS",
-    subtitle: "Backend, UI",
-    description: "A CMS platform for managing blog content dynamically.",
+    title: "Bookstore REST API",
+    subtitle: "Backend, Node.js",
+    description: "REST API for a book store with user authentication.",
     imgUrl: pgImg,
-    link: "https://your-ecommerce-demo.com",
+    link: "https://github.com/sajal327/Bookstore-REST-API",
   },
   {
     title: "Fitness Tracker",
-    subtitle: "React Native, API",
-    description: "Mobile app to track workouts and progress visually.",
+    subtitle: "React, Microservices, AWS, Kafka",
+    description:
+      "Web app to track workouts and progress visually with AI recommendations.",
     imgUrl: pgImg,
-    link: "https://your-ecommerce-demo.com",
+    link: "https://github.com/sajal327/fitness-microservice",
   },
 ];
 

@@ -16,9 +16,7 @@ import tailwind from "../assets/img/tailwindcss.png";
 import git from "../assets/img/git.png";
 import python from "../assets/img/python.png";
 import java from "../assets/img/java.png";
-import cpp from "../assets/img/c++.png";
 import firebase from "../assets/img/firebase.png";
-import gcp from "../assets/img/gcp.png";
 import docker from "../assets/img/docker.png";
 import linux from "../assets/img/linux.png";
 import ai from "../assets/img/ml.png";
@@ -27,6 +25,8 @@ import flutter from "../assets/img/flutter.png";
 import devops from "../assets/img/devops.png";
 import jenkins from "../assets/img/jenkins.png";
 import aws from "../assets/img/aws.png";
+import spring from "../assets/img/spring.png";
+import kafka from "../assets/img/kafka.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -37,6 +37,8 @@ const skillsData = [
   { name: "CSS", value: 95 },
   { name: "JavaScript", value: 75 },
   { name: "React", value: 85 },
+  { name: "Spring Boot", value: 80 },
+  { name: "Kafka", value: 60 },
   { name: "Node.js", value: 90 },
   { name: "MongoDB", value: 90 },
   { name: "Flutter", value: 70 },
@@ -45,15 +47,12 @@ const skillsData = [
   { name: "ExpressJS", value: 85 },
   { name: "Git", value: 80 },
   { name: "Python", value: 70 },
-  { name: "Java", value: 70 },
-  { name: "C++", value: 80 },
-  { name: "GCP", value: 30 },
+  { name: "Java", value: 80 },
   { name: "AWS", value: 25 },
-  { name: "AWS", value: 40 },
-  { name: "Docker", value: 15 },
+  { name: "Docker", value: 75 },
   { name: "Kubernetes", value: 10 },
   { name: "Jenkins", value: 55 },
-  { name: "DevOps", value: 10 },
+  { name: "DevOps", value: 30 },
   { name: "Linux", value: 45 },
   { name: "AI", value: 55 },
 ];
@@ -67,8 +66,10 @@ const tools = [
   { name: "MongoDB", desc: "Database", img: mongo },
   { name: "React", desc: "Framework", img: reactLogo },
   { name: "TailwindCSS", desc: "User Interface", img: tailwind },
+  { name: "Spring Boot", desc: "Spring Framework", img: spring },
+  { name: "Kafka", desc: "Message Broker", img: kafka },
+  { name: "Git", desc: "Design tool", img: git },
 
-  { name: "C++", desc: "Interaction", img: cpp },
   { name: "Java", desc: "Interaction", img: java },
   { name: "Python", desc: "User Interface", img: python },
 
@@ -77,13 +78,11 @@ const tools = [
   { name: "Kubernetes", desc: "Database", img: kubernetes },
   { name: "Jenkins", desc: "Web Server", img: jenkins },
   { name: "DevOps", desc: "Framework", img: devops },
-  { name: "GCP", desc: "Web Server", img: gcp },
   { name: "AWS", desc: "Web Server", img: aws },
 
   { name: "AI/ML", desc: "Interaction", img: ai },
   { name: "Firebase", desc: "Web Server", img: firebase },
   { name: "Flutter", desc: "Web Server", img: flutter },
-  { name: "Git", desc: "Design tool", img: git },
 ];
 
 const responsive = {
